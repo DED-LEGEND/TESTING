@@ -5,7 +5,7 @@ from AarohiX import app
 
 #--------------------------
 
-MUST_JOIN = "TMM_SUPPORT_CHAT"
+MUST_JOIN = "ALL_SANATANI_BOT"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
